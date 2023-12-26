@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Your address</legend>
+          <div class="control">
+            <label for="fname">First name</label><input id="fname" type="text" />
+          </div>
+          <div class="control">
+            <label for="lname">Last name</label><input id="lname" type="text" />
+          </div>
+          <div class="control">
+            <label for="str">Street</label><input id="str" type="text" />
+          </div>
+          <div class="control">
+            <label for="cty">City</label><input id="cty" type="text" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional details</legend>
+          <div class="control">
+            <label for="bio">Biography</label><textarea id="bio"></textarea>
+          </div>
+          <div class="control">
+            <label for="img">Image</label><input id="img" type="file" />
+          </div>
+          <div class="control">
+            <label for="age">Age Group</label><select id="age">
+              <option>
+                0 to 9 Years
+              </option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Interests</legend>
+          <div class="control">
+            <label for="hob">Hobbies</label><select id="hob" multiple="">
+              <option>
+                Playing soccer
+              </option>
+              <option>
+                Dancing
+              </option>
+              <option>
+                Gardening
+              </option>
+              <option>
+                Watching movies
+              </option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="car">Favourite car?</label><select id="car">
+                <option>
+                  Volvo
+                </option>
+               </select>
+          </div>
+          <div class="control">
+            <label for="public_transports">Favourite public transport?</label><select id="public_transports" multiple=""><optgroup label="Ground">
+                <option>
+                  Train
+                </option>
+                <option>
+                  Bus
+                </option>
+              </optgroup><optgroup label="Water">
+          </div>
+        </fieldset>
+      </form>
+</body>
+</html>
